@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI calculator</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="bmi.png" type="image/x-icon">
+</head>
+
+<body>
+    <section class="container">
+        <div class="panel">
+            <h2>BMI Calculator</h2>
+
+            <form>
+                <div class="gender">
+                    <p>Select gender Below</p>
+                    <button id="male"><i class='bx bx-male-sign'></i>male</button>
+                    <button id="female"><i class='bx bx-female-sign'></i>female</button>
+                </div>
+
+                
+                <div class="weightInp">
+                    <span for="weight">weight KG</span>
+                    <input type="number" name="number" id="weight" value="0">
+                </div>
+
+                <div class="heightInp">
+                    <span for="height">height (in cm)</span>
+                    <input type="number" id="height" name="height" value="0">
+                </div>
+
+                <button class="submitBtn" id="submitBtn">calculate</button>
+                <span>Here The result</span>
+                <p id="messsageBMI"></p>
+            </form>
+            <p id="Bmi"></p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

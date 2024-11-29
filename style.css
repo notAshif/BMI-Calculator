@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #1A1A1D;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    background: rgb(148, 134, 252);
+    padding: 32px 64px;
+    max-width: 400px;
+    
+    text-align: center;
+    border-radius: 20px;
+}
+
+.container .panel{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.panel h2{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 23px;
+}
+
+.gender{
+    margin: 16px 0;
+}
+
+.gender p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.gender button{
+    margin-top: 20px;
+    background: #1A1A1D;
+    padding: 20px 20px;
+    color: #fff;
+
+    border: none;
+    outline: none;
+
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 32px;
+
+    border-radius: 23px;
+}
+
+.gender button:hover{
+    background-color: rgb(53, 53, 53);
+}
+
+.gender button i{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 23px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+.heightInp{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+}
+
+.heightInp input,
+.weightInp input{
+    padding: 6px;
+    width: 100%;
+
+    border: none;
+    outline: none;
+
+    border-radius: 6px;
+}
+
+.weightInp{
+    margin-top: 10px;
+    font-size: 24px;
+
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    line-height: 34px;
+    
+    margin-top: 10px;
+}
+
+
+.submitBtn{
+    padding: 10px 64px;
+    margin-top: 10px;
+
+    font-size: 24px;
+    line-height: 23px;
+
+    border: none;
+
+    border-radius: 20px;
+    background: #608BC1;
+    color: #fff;
+}
+
+.submitBtn:hover{
+    background: #003161;
+    transition: .5s;
+}
+
+#messsageBMI{
+    font-size: 24px;
+    font-weight: 600;
+    color: #133E87;
+
+    margin-top: 10px;
+}
+
+form span,
+#GoodMessage{
+    margin-top: 10px;
+
+    font-size: 24px;
+    font-weight: 600;
+
+    display: flex;
+    text-align: left;
+}
+
+
+
+
